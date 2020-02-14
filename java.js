@@ -1,0 +1,1 @@
+alert("Jake welcomes you to Kobe Bryant tribute page")
