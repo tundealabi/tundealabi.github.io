@@ -69,7 +69,7 @@ buttonArray.forEach(item =>{
                 even(userResponse.toString());
             }
         }else{
-            userResponse = prompt("Enter your array item");
+            userResponse = prompt("Enter your array item",'[3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3]');
                if(userResponse){
                    mostOccur(userResponse);
                }
