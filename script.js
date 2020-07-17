@@ -21,15 +21,15 @@ for(let i = 0;i<3;i++){
  };
 
 const even = num =>{
-   let initial = [num[0]];
+   let result = num[0];
    for(let i = 1; i < num.length; i++){
          if(num[i-1] % 2 == 0 && num[i] % 2 == 0){
-            initial.push("-",num[i]);
+            result += `-${num[i]}`;
          }else{
-             initial.push(num[i]);
+             result += num[i];
          }
    }
-   alert(initial.join(""));
+   alert(result);
    return true;
 };
 
