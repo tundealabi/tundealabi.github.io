@@ -1,0 +1,37 @@
+
+
+#container_1{
+	display: flex; 
+	justify-content: center; 
+}
+#container_2{
+	display: flex;
+	justify-content: center;
+}
+#container_3{
+	display: flex;
+	justify-content: center;
+}
+
+.first,.second,.third,.fourth,.fifth{
+	width: 150px;
+	height: 150px;
+}
+
+.first{
+	background: blue;
+}
+.second{
+	background: green;
+	margin-right: 15em;
+}
+.third{
+	background: yellow;
+}
+.fourth{
+	background: red;
+	margin-right: 37em;
+}
+.fifth{
+	background: purple;
+}
